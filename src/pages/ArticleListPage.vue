@@ -1,23 +1,21 @@
 <template>
-  <section class="title-bar">
-    <h1 class="container mx-auto">
-      게시물 리스트 페이지
-    </h1>
-
-  </section>
+  <TitleBar title="게시물 리스트" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import TitleBar from '../components/TitleBar.vue';
 
 export default defineComponent({
-  name: 'ArticleListPage',  
+  name: 'ArticleListPage',
+  components: {
+    TitleBar
+  }
+
 })
 
 </script>
 
 <style scoped>
-  h1 {
-    color:red;
-  }
+
 </style>
