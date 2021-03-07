@@ -30,7 +30,7 @@ const router = createRouter ({
 
 // 앱 생성
 const app = createApp(App)
-
+ 
 app.component('TitleBar', TitleBar);
 
 // 앱에 라우터 적용
