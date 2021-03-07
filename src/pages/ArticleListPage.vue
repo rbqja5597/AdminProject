@@ -1,5 +1,5 @@
 <template>
-  <TitleBar>게시물 리스트</TitleBar>
+  <TitleBar>공지사항</TitleBar>
 
 
  <section class="section section-article-write-form">
@@ -29,7 +29,7 @@
               2021-02-24 10:20:30
             </span>
             <a href="#" class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500">
-              자유
+              공지
             </a>
           </div>
           <div class="mt-2">

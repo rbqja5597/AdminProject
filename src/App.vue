@@ -2,8 +2,10 @@
     <header class="header-bar h-20 bg-gray text-black">
      <div class="container mx-auto flex h-full">
        <router-link to="/" class="h-full flex items-center px-2">
-        <img class="block w-10" src="./assets/logo.png" alt="">
+        <div>Administrator</div>
       </router-link>
+
+      
 
         <div class="flex-grow"></div>
 
@@ -11,12 +13,17 @@
         <ul class="flex h-full">
           <li>
              <router-link to="/" class="h-full flex items-center font-bold px-4 hover:bg-black hover:text-white">
-              HOME
+              홈
             </router-link>
           </li>
           <li>
             <router-link to="/article/list" class="h-full flex items-center font-bold px-4 hover:bg-black hover:text-white">
-              ARTICLE LIST
+              공지사항 작성
+            </router-link>
+          </li>
+           <li>
+            <router-link to="/article/list" class="h-full flex items-center font-bold px-4 hover:bg-black hover:text-white">
+              회원관리
             </router-link>
           </li>
         </ul>
