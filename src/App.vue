@@ -1,5 +1,7 @@
 <template>
-  test
+  <div class="container mx-auto bg-red-500">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam omnis nostrum alias sit hic nemo suscipit nam architecto eos perferendis voluptatem dolore distinctio explicabo libero nulla porro voluptatum, earum iure!
+  </div>
 </template>
 
 <script lang="ts">
