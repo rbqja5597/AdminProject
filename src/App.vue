@@ -1,7 +1,31 @@
 <template>
-  <div class="container mx-auto bg-red-500">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam omnis nostrum alias sit hic nemo suscipit nam architecto eos perferendis voluptatem dolore distinctio explicabo libero nulla porro voluptatum, earum iure!
-  </div>
+   <header class="header-bar h-40 bg-gray-100">
+     <div class="container mx-auto flex h-full">
+       <router-link to="/" class="h-full flex items-center">
+        <img class="block w-20" src="./assets/logo.png" alt="">
+      </router-link>
+
+        <div class="flex-grow"></div>
+
+      <nav class="header-bar__menu-box-1">
+        <ul class="flex h-full">
+          <li>
+            <router-link to="/" class="h-full flex items-center font-bold px-10 hover:bg-black hover:text-white">
+              HOME
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/article/list" class="h-full flex items-center font-bold px-10 hover:bg-black hover:text-white">
+              ARTICLE LIST
+            </router-link>
+          </li>
+        </ul>
+      </nav>
+     </div>
+   </header>
+    <main>
+    <router-view></router-view>
+  </main>
 </template>
 
 <script lang="ts">
